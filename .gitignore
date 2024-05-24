@@ -1,0 +1,13 @@
+Gemfile.lock
+
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# Couple of IDEs' temporary/cache directory
+*~
+*.swp
+.vs/
+.vscode/

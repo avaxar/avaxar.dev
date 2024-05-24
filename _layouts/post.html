@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+
+{% include head.html %}
+
+<body>
+    <link rel="stylesheet" href="/assets/css/layouts/post.css">
+
+    {% include header.html %}
+    <h1 class="title">{{ page.title }}</h1>
+    <main>{{ content }}</main>
+    <aside class="toc">TABLE OF CONTENT</aside>
+    <div class="comments">
+        <noscript>Enable JavaScript in order to load the comment section.</noscript>
+        <script src="https://utteranc.es/client.js" repo="avaxar/avaxar.dev" issue-term="pathname" theme="github-dark"
+            crossorigin="anonymous" async>
+            </script>
+    </div>
+    {% include footer.html %}
+</body>
+
+</html>

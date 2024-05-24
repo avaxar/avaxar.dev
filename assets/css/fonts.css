@@ -1,0 +1,16 @@
+/*
+ * Stylesheet to set the fonts for regular text as well as monospaced code.
+ * Suited to render Latin, Cyrillic, Greek, Chinese Han ideographs (simplified, traditional,
+ * Wasei-Kanji), Japanese Kana syllabaries, IPA phonemes, and Zbalermorna.
+ */
+
+/* Loads Jack Humbert's Zbalermorna fonts */
+@import url(//jackhumbert.github.io/zbalermorna/assets/css/fonts.css);
+
+body {
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif, 'crisa';
+}
+
+code {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace, "fira-code-zlm";
+}

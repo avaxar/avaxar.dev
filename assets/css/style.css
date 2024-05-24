@@ -1,0 +1,12 @@
+/*
+ * Base theme for the site.
+ */
+
+@import url(code.css);
+@import url(fonts.css);
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
