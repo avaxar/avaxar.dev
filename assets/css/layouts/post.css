@@ -2,7 +2,7 @@
  * I don't want to talk about it.
  */
 
-@import url(blank.css);
+@import url(base.css);
 
 body {
     display: grid;
@@ -36,7 +36,7 @@ main {
 .toc {
     grid-area: toc;
     text-align: left;
-    margin: 20px 10% 20px 10%;
+    margin: 20px 10% 20px 0%;
 
     @media screen and (orientation:portrait) {
         display: none;
@@ -45,5 +45,12 @@ main {
 
 .comments {
     grid-area: comments;
-    margin: 10px 5% 10px 5%;
+
+    @media screen and (orientation:landscape) {
+        margin: 10px 5% 10px 15%;
+    }
+
+    @media screen and (orientation:portrait) {
+        margin: 20px 7.5% 20px 7.5%;
+    }
 }

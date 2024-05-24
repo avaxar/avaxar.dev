@@ -5,8 +5,28 @@
 @import url(code.css);
 @import url(fonts.css);
 
+/* :root {
+}*/
+
 body {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    background-color: white;
+    color: black;
+    overflow: overlay;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e0e0e0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #808080;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #505050;
 }

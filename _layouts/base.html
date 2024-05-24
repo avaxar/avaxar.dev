@@ -4,10 +4,14 @@
 {% include head.html %}
 
 <body>
-    <link rel="stylesheet" href="/assets/css/layouts/blank.css">
+    <link rel="stylesheet" href="/assets/css/layouts/base.css">
 
     {% include header.html %}
-    <h1 class="title">{{ page.title }}</h1>
+    <div class="title">
+        <hr />
+        <h1>{{ page.title }}</h1>
+        <hr />
+    </div>
     <main>{{ content }}</main>
     {% include footer.html %}
 </body>

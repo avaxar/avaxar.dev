@@ -7,14 +7,24 @@
     <link rel="stylesheet" href="/assets/css/layouts/post.css">
 
     {% include header.html %}
-    <h1 class="title">{{ page.title }}</h1>
+    <div class="title">
+        <hr />
+        <h1>{{ page.title }}</h1>
+        <hr />
+    </div>
     <main>{{ content }}</main>
-    <aside class="toc">TABLE OF CONTENT</aside>
+    <aside class="toc">
+        <strong>TABLE OF CONTENTS</strong>
+        <ol>
+            <li>TODO</li>
+            <li>TODO #2</li>
+        </ol>
+    </aside>
     <div class="comments">
-        <noscript>Enable JavaScript in order to load the comment section.</noscript>
-        <script src="https://utteranc.es/client.js" repo="avaxar/avaxar.dev" issue-term="pathname" theme="github-dark"
-            crossorigin="anonymous" async>
-            </script>
+        <hr />
+        <noscript><br />Enable JavaScript in order to load the comment section.</noscript>
+        <script src="https://utteranc.es/client.js" repo="avaxar/avaxar.dev" issue-term="pathname" theme="github-light"
+            crossorigin="anonymous" async></script>
     </div>
     {% include footer.html %}
 </body>

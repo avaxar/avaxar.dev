@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Avaxarium
+title: Home
 ---
 
 ## Lorem ipsum dolor sit amet
